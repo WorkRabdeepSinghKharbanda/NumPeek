@@ -57,7 +57,7 @@ const PhoneNumberDisplay = () => {
                 <a href={`tel:${phoneData.number}`}>{phoneData.number}</a>
               </p>
               <p>Text Number Start At: {phoneData.startsAt}</p>
-              <p>Text Number Ends At: {phoneData.startsAt}</p>
+              <p>Text Number Ends At: {phoneData.endsAt}</p>
             </div>
             <button
               className="btn btn-transparent"
